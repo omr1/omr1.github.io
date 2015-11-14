@@ -1,0 +1,64 @@
+body{
+	background-color:#4747FF;
+}
+#topBarMenu {list-style: none;float:right;}
+#topBarMenu li{
+	float: left;
+	margin: -9px 1em;
+	color: #297CCF;
+}
+#search{
+	border: 2px solid #456879;
+	border-radius: 10px;
+	height 22px;
+	width: 100px;
+}
+#informationContainer {
+	background-color:#4747FF;
+	width: 950px;
+	height: 150px;
+}
+#imageContainer {
+	background-color:#303043;
+	background-image: url(img1.png);
+	background-repeat: no-repeat;
+	background-size: 250px 350px;
+	height: 350px;
+	width: 250px;
+	float:left;
+/*	overflow: hidden; */	
+}
+#background{
+	float:left;
+}
+#quote{
+	clear: both;
+}
+#calendarContainer{
+	background-color:#4747FF;
+	width: 180px;
+	height: 30px;
+	float: right;
+	margin: 30px 30px;
+}
+#calendarContainer #barEvent {
+	width: 180px;
+	height: 240px;
+}
+#socialWeb {
+	background-image: url(facebook.png);
+	background-repeat: no-repeat;
+	background-size: 200px 180px;
+	height: 180px;
+	width: 200px;
+	float: right;
+	margin: 0px 30px;
+}
+#calendarContainer #barEvent pre{
+	font-size: 9px;
+	background-color:6699FF;
+}
+#bottomContainer {
+/*    position: absolute;
+    bottom: 0; */
+}

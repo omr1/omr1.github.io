@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>      
+	<title>Yueh Ru Chung</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesPR.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body onload = "startTimer()">
+	<br/>
+	<div id = "topBar">
+		<div id = "topBarMenu">
+			<li><a href=""> Join </a></li>
+            <li><a href=""> Sign In </a></li>
+            <li> Search <input type = "text" id = "search"></li>
+		</div>
+	</div><br/>
+	<div id = "informationContainer">
+		<div id = "icLeft">
+			<h1 id = "title">Why choose to visit an oral and maxillofacial radiologist?</h1>
+		</div>
+	</div>
+	<div class="dropdownContainer">
+  	<ul class="nav nav-tabs">
+    <li class="active"><a href="http://omr1.github.io">Home</a></li>
+    <li class="dropdown1">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="">Submenu 1-1</a></li>
+        <li><a href="">Submenu 1-2</a></li>
+        <li><a href="">Submenu 1-3</a></li>                        
+      </ul>
+    </li>
+    <li class="dropdown2">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Meeting & Events<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="">Submenu 1-1</a></li>
+        <li><a href="">Submenu 1-2</a></li>
+        <li><a href="">Submenu 1-3</a></li>                        
+      </ul>
+    </li>
+    <li class="dropdown3">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="">Submenu 1-1</a></li>
+        <li><a href="">Submenu 1-2</a></li>
+        <li><a href="">Submenu 1-3</a></li>                        
+      </ul>
+    </li>
+    <li class="dropdown4">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dentist and Student Resource<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="http://omr1.github.io/DSR/DSR1">Links to CE courses and publications</a></li>
+        <li><a href="http://omr1.github.io/DSR/DSR2">Latest news including upcoming meetiings</a></li>
+        <li><a href="http://omr1.github.io/DSR/DSR3">Links and information for individuals interested in pursuing oral and maxillofacial radiologist</a></li>                
+        <li><a href="http://omr1.github.io/DSR/DSR4">Interview with Dr. Barry Pass, DDS, PhD</a></li>
+	  </ul>
+    </li>
+    <li class="dropdown5">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Patient Resources<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="http://omr1.github.io/PR/PR1">Why choose to visit an oral and maxillofacial radiologist?</a></li>
+        <li><a href="http://omr1.github.io/PR/PR2">A typical office visit</a></li>
+        <li><a href="http://omr1.github.io/PR/PR3">Conditions diagnosed and corresponding treatments</a></li>                        
+        <li><a href="http://omr1.github.io/PR/PR4">Glossary of common terms associated with that specialty only</a></li>                        
+        <li><a href="http://omr1.github.io/PR/PR5">Resources and links for patients</a></li>                        
+        <li><a href="http://omr1.github.io/PR/PR6">Personal hygiene instruction</a></li>                        
+      </ul>
+    </li>
+  </ul>
+</div>
+<div id = "middleContainer">
+	<pre>
+Why choose to visit an oral and maxillofacial radiologist?
+
+	The Oral and Maxillofacial Radiology Specialty focus in the attainment and
+	interpretation of radiographic imaging studies; this images are mainly used for
+	diagnosis of treatment directions for conditions affecting the maxillofacial area.
+	Most OMR’s services consist in produce and interpreter those radiographic 
+	images, including CT and MRI scans that are used for the analysis and
+	management of diseases, symptoms, disorders and conditions affecting the head,
+	neck, face and jaws. Furthermore, a specialist in this area will choose the proper
+	examination, directing radiology technologists in the proper performance of
+	worth examinations, interpreting the resulting x-rays, recommending
+	further appropriate treatments, if necessary.
+	</pre>
+</div>
+<br/>
+<br/><br/><br/><br/><br/><br/><br/>
+<div id = "bottomContainer">
+	<ul class="nav nav-pills">
+		<li class="active"><a href="#">Other OMR websites</a></li>
+    	<li><a href="">Fundraising</a></li>
+    	<li><a href="">Webmail</a></li>
+    	<li><a href="">Member directory</a></li>
+    	<li><a href="">Advertise with us</a></li>
+  	</ul>	
+</div>
+<script language = "JavaScript">
+var images = ["url('img1.png')","url('img2.png')","url('img3.png')","url('img4.png')","url('img5.png')"];
+var num = 1;
+function startTimer(){
+	setInterval(changeBG, 3000);
+}
+function changeBG(){
+	document.getElementById("imageContainer").style.backgroundImage = images[num];
+	num = num+1;
+	if(num == images.length)
+		num = 0;
+}
+</script>
+</body>
