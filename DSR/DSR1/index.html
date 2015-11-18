@@ -91,17 +91,4 @@
     	<li><a href="">Advertise with us</a></li>
   	</ul>	
 </div>
-<script language = "JavaScript">
-var images = ["url('img1.png')","url('img2.png')","url('img3.png')","url('img4.png')","url('img5.png')"];
-var num = 1;
-function startTimer(){
-	setInterval(changeBG, 3000);
-}
-function changeBG(){
-	document.getElementById("imageContainer").style.backgroundImage = images[num];
-	num = num+1;
-	if(num == images.length)
-		num = 0;
-}
-</script>
 </body>
