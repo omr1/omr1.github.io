@@ -22,16 +22,16 @@ body{
 	background-color:#303043;
 	background-image: url(img1.png);
 	background-repeat: no-repeat;
-	background-size: 400px 250px;
-	height: 250px;
+	background-size: 400px 750px;
+	height: 750px;
 	width: 400px;	
 }
 #imageContainer2 {
 	background-color:#303043;
 	background-image: url(img2.png);
 	background-repeat: no-repeat;
-	background-size: 400px 250px;
-	height: 250px;
+	background-size: 400px 750px;
+	height: 750px;
 	width: 400px;	
 }
 #imageContainer3 {
