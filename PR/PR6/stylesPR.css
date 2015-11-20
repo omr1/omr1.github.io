@@ -19,7 +19,7 @@ body{
 	height: 150px;
 }
 #imgPartOne{
-	width:1700px;
+	width:1600px;
 	overflow: hidden;
 }
 #imageContainer1 {
@@ -28,7 +28,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: 400px 650px;
 	height: 650px;
-	width: 400px;	
+	width: 600px;	
 	float:left;
 }
 #imageContainer2 {
@@ -37,9 +37,16 @@ body{
 	background-repeat: no-repeat;
 	background-size: 400px 650px;
 	height: 650px;
-	width: 400px;
+	width: 600px;
 	float:left;	
 }
+#textPartOne{
+	width:1600px;
+	overflow: hidden;
+}
+#textContainer1{ width: 600px; }
+#textContainer2{ width: 600px; }
+
 #imageContainer3 {
 	background-color:#303043;
 	background-image: url(img3.png);
