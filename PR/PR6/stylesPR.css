@@ -46,22 +46,27 @@ body{
 }
 #textContainer1{ width: 650px; float:left; }
 #textContainer2{ width: 650px; float:left;}
-
+#imgPartTwo{
+	width:1400px;
+	overflow: hidden;
+}
 #imageContainer3 {
-	background-color:#303043;
+	background-color:white;
 	background-image: url(img3.png);
 	background-repeat: no-repeat;
-	background-size: 400px 250px;
-	height: 250px;
-	width: 400px;	
+	background-size: 400px 650px;
+	height: 650px;
+	width: 650px;
+	float:left;	
 }
 #imageContainer4 {
-	background-color:#303043;
+	background-color:white;
 	background-image: url(img4.png);
 	background-repeat: no-repeat;
-	background-size: 400px 250px;
-	height: 250px;
-	width: 400px;	
+	background-size: 400px 650px;
+	height: 650px;
+	width: 650px;
+	float:left;	
 }
 #imageContainer5 {
 	background-color:#303043;
