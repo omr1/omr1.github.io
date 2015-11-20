@@ -23,29 +23,29 @@ body{
 	overflow: hidden;
 }
 #imageContainer1 {
-	background-color:#303043;
+	background-color:white;
 	background-image: url(img1.png);
 	background-repeat: no-repeat;
 	background-size: 400px 650px;
 	height: 650px;
-	width: 600px;	
+	width: 650px;	
 	float:left;
 }
 #imageContainer2 {
-	background-color:#303043;
+	background-color:white;
 	background-image: url(img2.png);
 	background-repeat: no-repeat;
 	background-size: 400px 650px;
 	height: 650px;
-	width: 600px;
+	width: 650px;
 	float:left;	
 }
 #textPartOne{
 	width:1600px;
 	overflow: hidden;
 }
-#textContainer1{ width: 600px; }
-#textContainer2{ width: 600px; }
+#textContainer1{ width: 650px; float:left; }
+#textContainer2{ width: 650px; float:left;}
 
 #imageContainer3 {
 	background-color:#303043;
