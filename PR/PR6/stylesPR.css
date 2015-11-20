@@ -72,9 +72,10 @@ body{
 	background-color:#303043;
 	background-image: url(img5.png);
 	background-repeat: no-repeat;
-	background-size: 400px 250px;
-	height: 250px;
-	width: 400px;	
+	background-size: 200px 1300px;
+	height: 1300px;
+	width: 200px;	
+	float:left;
 }
 #calendarContainer{
 	background-color:#4747FF;
