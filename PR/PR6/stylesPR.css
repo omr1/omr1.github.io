@@ -18,6 +18,10 @@ body{
 	width: 950px;
 	height: 150px;
 }
+#imgPartOne{
+	width:1700px;
+	overflow: hidden;
+}
 #imageContainer1 {
 	background-color:#303043;
 	background-image: url(img1.png);
