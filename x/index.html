@@ -8,17 +8,7 @@
 <h3>Output:</h3>
 <div id="id01"></div>
 
-<script src="node_modules/request/request.js">
-	var request = require('request');
-	request('', function(error, response, body)
-	{
-		if(!error && response.statusCode == 200)
-		{
-			var json = JSON.parse(body);
-			console.log(json);
-		}
-	}
-	); 
+<script data-main="scripts/main" src="require.js">
 //            var myarr = JSON.parse(xmlhttp.responseText);
 //			console.log(myarr);
 //            document.getElementById("id01").innerHTML = myarr;
