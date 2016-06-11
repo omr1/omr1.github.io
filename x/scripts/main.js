@@ -1,3 +1,5 @@
+
+console.log("i");
 requirejs(["node_modules/request/request"], function(request){
 	console.log("hi");
 	var request = require('request');
