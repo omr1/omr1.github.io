@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h3>Output:</h3>
+<div id="id01"></div>
+
+<script>
+    
+    var xmlhttp = new XMLHttpRequest();  
+    var url='https://api.uber.com/v1/products?latitude=37.7759792&longitude=-122.41823';
+    
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var myarr = JSON.parse(xmlhttp.responseText);
+            document.getElementById("id01").innerHTML = myarr;
+        }
+        else {
+            document.getElementById("id01").innerHTML = xmlhttp.readyState+" "+xmlhttp.status;
+        }
+    }
+    
+    xmlhttp.open('GET', url);
+    xmlhttp.setRequestHeader("Authorization", "Token 9_dCY6SOGeWqmUobBmdFbMW67e5c_XIzSF0hOCRD");
+    xmlhttp.send();
+    
+</script>
+
+</body>
+</html>
