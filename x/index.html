@@ -9,24 +9,24 @@
 <div id="id01"></div>
 
 <script>
-    
-    var xmlhttp = new XMLHttpRequest();  
-    var url='https://api.uber.com/v1/products?latitude=37.7759792&longitude=-122.41823';
-    
-    xmlhttp.open('GET', url);
-    xmlhttp.setRequestHeader("Authorization", "Token Bzpj2OqdsiEfG8gXzI_UcoBY76hhfxiPF0CsOs3Q");
-    xmlhttp.send();
-    
-	xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            var myarr = JSON.parse(xmlhttp.responseText);
-			console.log(myarr);
-            document.getElementById("id01").innerHTML = myarr;
-        }
-        else {
-            document.getElementById("id01").innerHTML = xmlhttp.readyState+" "+xmlhttp.status;
-        }
-    }
+	var request = require('request');
+	request('', function(error, response, body)
+	{
+		if(!error && response.statusCode == 200)
+		{
+			var json = JSON.parse(body);
+			console.log(json);
+		}
+	}
+	); 
+//            var myarr = JSON.parse(xmlhttp.responseText);
+//			console.log(myarr);
+//            document.getElementById("id01").innerHTML = myarr;
+//        }
+//        else {
+//            document.getElementById("id01").innerHTML = xmlhttp.readyState+" "+xmlhttp.status;
+//        }
+//    }
     
     
 </script>
