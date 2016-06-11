@@ -16,6 +16,7 @@
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var myarr = JSON.parse(xmlhttp.responseText);
+			console.log(myarr);
             document.getElementById("id01").innerHTML = myarr;
         }
         else {
@@ -24,7 +25,7 @@
     }
     
     xmlhttp.open('GET', url);
-    xmlhttp.setRequestHeader("Authorization", "Token 9_dCY6SOGeWqmUobBmdFbMW67e5c_XIzSF0hOCRD");
+    xmlhttp.setRequestHeader("Authorization", "Token Bzpj2OqdsiEfG8gXzI_UcoBY76hhfxiPF0CsOs3Q");
     xmlhttp.send();
     
 </script>
